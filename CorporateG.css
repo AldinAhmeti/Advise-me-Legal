@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-corporate-governance {
+  background: url('images/corporatee.avif') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  background: #27AE60;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Overview Section */
+.overview {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.overview h2 {
+  font-size: 2rem;
+}
+
+.overview-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Steps to Form a Company Section */
+/* Key Principles Section */
+.key-principles {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 40px 20px; /* Add padding for spacing */
+  text-align: center; /* Center-align text */
+}
+
+.key-principles h2 {
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Dark color for the heading */
+}
+
+.principles-content {
+  display: flex; /* Use flexbox for alignment */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: center; /* Center align the items */
+  gap: 20px; /* Space between items */
+}
+
+.principle {
+  background-color: #ffffff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+  width: 300px; 
+  transition: transform 0.3s; 
+}
+
+.principle h3 {
+  font-size: 1.5em; 
+  margin-bottom: 10px; 
+  color: #27AE60; 
+}
+
+.principle p {
+  font-size: 1em; 
+  color: #666; 
+}
+
+
+.principle:hover {
+  transform: scale(1.05); 
+  cursor: pointer; 
+}
+
+
+.considerations {
+  padding: 50px 20px;
+}
+
+.considerations h2 {
+  text-align: center;
+}
+
+.considerations-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.consideration p{
+  text-align: center;
+}
+.consideration {
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background: #e7e7e7;
+  border-radius: 5px;
+}
+
+/* Expert Consultants Section */
+.lawyers {
+  padding: 60px 20px;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.lawyer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.lawyer11 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.lawyer11 a{
+text-decoration: none;
+color: white;
+}
+.lawyer11 img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.lawyer11 h3 {
+  color: #27AE60;
+  margin: 15px 0 10px;
+}
+
+.lawyer11 p {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}

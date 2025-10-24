@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2C3E50;
+}
+
+p {
+  color: #666;
+}
+
+/* Hero Section */
+.hero-sectionn {
+  position: relative;
+  background-image: url('images/property2.avif');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-overlayn {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-contentn {
+  color: #fff;
+  text-align: center;
+}
+
+.hero-contentn h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero-contentn p {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.cta-button {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #219150;
+}
+
+/* Section Layout */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+section {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+/* About Property Litigation Section */
+.about-property-litigation h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.about-property-litigation p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Key Services Section */
+.key-services h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-item {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Legal Experts Section */
+.lawyers {
+  padding: 60px 20px;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.lawyer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.lawyer11 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.lawyer11 a{
+text-decoration: none;
+color: white;
+}
+.lawyer11 img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.lawyer11 h3 {
+  color: #27AE60;
+  margin: 15px 0 10px;
+}
+
+.lawyer11 p {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+
+/* Footer */
+footer {
+  background-color: #2C3E50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  font-size: 1em;
+}

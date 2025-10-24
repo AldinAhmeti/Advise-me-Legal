@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.h2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Robotic", 'arial';  
+    color: #27AE60;
+}
+.word-with-line {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.line {
+    flex-grow: 0.2;
+    height: 1px;
+    background-color: black;
+    margin-right: 5px; 
+}
+.txt p{
+    font-size: 13px;
+}
+.side i{
+    position: relative;
+    top: 3px;
+}
+.txt{
+    display: flex;
+    text-align: center;
+}
+.side ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.side ul li a{
+    font-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+} 
+/* Global Styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.heros {
+    background: url('images/familylawcard.avif') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.heros h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.heros p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Family Law Services Section */
+.expertise-section {
+    padding: 60px 50px;
+    background-color: #fff;
+}
+
+.expertise-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+
+.expertise-itemm {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    height: 180px;
+}
+
+.expertise-itemm:hover{
+    transform: translateY(-5px);
+}
+.service:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 {
+    color: #27AE60;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    color: #666;
+}
+
+/* Lawyers Section */
+.lawyers {
+    padding: 60px 20px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.lawyer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.lawyer11 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.lawyer11 img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.lawyer11 h3 {
+    color: #27AE60;
+    margin: 15px 0 10px;
+}
+
+.lawyer11 p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding-top: 20px;
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #666;
+}
+
+.testimonial h3 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #27AE60;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f3f3f3;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #27AE60;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #27AE60;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #219150;
+}
+
+  

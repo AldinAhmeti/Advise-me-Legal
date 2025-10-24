@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Corporate Law.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <link rel="stylesheet" href="Family Law.css" />
+  <style>
+    .side ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .side ul li {
+      padding: 5px;
+    }
+
+    .side ul li a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Dropdown Styles */
+    .side ul ul {
+      position: absolute;
+      z-index: 5;
+      display: none; /* Hidden by default */
+      padding-right: 10px;
+    }
+
+    .side ul li.active ul {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: rgb(232, 232, 232);
+      display: block; /* Show dropdown when active */
+    }
+
+    /* Arrow rotation */
+    .side ul li a i {
+      transition: transform 0.3s ease;
+    }
+
+    .side ul li.active a i {
+      transform: rotate(90deg); /* Rotate arrow when active */
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.html">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="Contact us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Ekspertizë në Ligjin e Korporatave</h1>
+        <p>
+          Mbrojtja e interesave të biznesit tuaj me këshilla dhe zgjidhje
+          ligjore profesionale.
+        </p>
+        <a href="#contact-us" class="cta-btn">Merrni një Konsultim</a>
+      </div>
+    </section>
+
+    <!-- Seksioni i Ekspertizës Korporative -->
+    <section class="corporate-expertise">
+      <h2>Shërbimet Tona për Ligjin e Korporatave</h2>
+      <p>
+        Nga bizneset e reja tek ndërmarrjet e mëdha, ne ofrojmë këshillime
+        ligjore ekspertësh në të gjitha fushat e ligjit të korporatave.
+      </p>
+      <div class="expertise-grid">
+        <a href="Company Formation.html">
+          <div class="expertise-item">
+            <h3>Formimi i Kompanisë</h3>
+            <p>
+              Ne ju ndihmojmë në krijimin e korporatave, shoqërive me
+              përgjegjësi të kufizuar, partneriteteve, dhe më shumë, në
+              përputhje me ligjet.
+            </p>
+          </div>
+        </a>
+        <a href="Contract Negotiation.html">
+          <div class="expertise-item">
+            <h3>Negocimi i Kontratave</h3>
+            <p>
+              Udhëzime ligjore ekspertësh për të siguruar marrëveshje të drejta
+              dhe të zbatueshme për biznesin tuaj.
+            </p>
+          </div>
+        </a>
+        <a href="Mergers.html">
+          <div class="expertise-item">
+            <h3>Bashkime dhe Blerje</h3>
+            <p>
+              Mbështetje gjatë transaksioneve komplekse korporative, për të
+              siguruar një proces të qetë.
+            </p>
+          </div>
+        </a>
+        <a href="CorporateG.html">
+          <div class="expertise-item">
+            <h3>Qeverisja Korporative</h3>
+            <p>
+              Ju ndihmojmë të vendosni dhe të ruani praktikat më të mira për të
+              siguruar përputhshmërinë dhe përgjegjësinë.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Seksioni i Rezultateve të Provuara -->
+    <section class="proven-results">
+      <h2>Rezultate të Provuara në Ligjin e Korporatave</h2>
+      <div class="case-grid">
+        <div class="case-card">
+          <h3>Bashkim i Suksesshëm i Kompanisë</h3>
+          <p>
+            Klienti ynë u bashkua me një firmë konkurruese, duke rritur pjesën e
+            tregut dhe minimizuar detyrimet tatimore.
+          </p>
+          <span>Rezultati: Bashkimi i Përfunduar</span>
+        </div>
+        <div class="case-card">
+          <h3>Litigji për Kontratat e Biznesit</h3>
+          <p>
+            Ne mbrojtëm me sukses një klient në një mosmarrëveshje të profilit
+            të lartë për kontratë, duke kursyer miliona në humbjet e mundshme.
+          </p>
+          <span>Rezultati: Vendim Favorizues i Gjykatës</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni Takoni Avokatët Tanë -->
+    <section class="lawyers">
+      <div class="containeer">
+        <h2>Njihuni me Avokatët Tanë të Ligjit Familjar</h2>
+        <div class="lawyer-grid">
+          <div class="lawyer11">
+            <img src="images/lawyer1.avif" alt="Avokati 1" />
+            <h3>John Doe</h3>
+            <p>Avokat i Lartë për Ligjin Familjar</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyer11">
+            <img src="images/lawyer2.avif" alt="Avokatja 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyer11">
+            <img src="images/lawyer3.avif" alt="Avokatja 3" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyer11">
+            <img src="images/lawyer4.avif" alt="Avokati 4" />
+            <h3>David Brown</h3>
+            <p>Ekspert për Divorc & Ndarje</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni Pse të Zgjedhni Ne? -->
+    <section class="why-choose-us">
+      <h2>Pse të Zgjedhni Ne?</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <h3>Ekspertiza</h3>
+          <p>
+            Avokatët tanë kanë dekada përvojë të kombinuar në ligjin e
+            korporatave, duke garantuar përfaqësim ekspertësh.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Rezultatet</h3>
+          <p>
+            Ne arrijmë vazhdimisht rezultate të suksesshme për klientët tanë,
+            nga bizneset e vogla deri tek korporatat e mëdha.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Përkushtimi</h3>
+          <p>
+            Ne jemi të përkushtuar për suksesin e klientëve tanë, duke ofruar
+            shërbime ligjore të personalizuara dhe proaktive.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni i Kontaktit -->
+    <section class="contact" id="contact">
+      <h2>Na Kontaktoni për një Konsultim Falas</h2>
+      <form action="submit.php" method="post">
+        <input type="text" name="name" placeholder="Emri Juaj" required />
+        <input type="email" name="email" placeholder="Email-i Juaj" required />
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Numri Juaj i Telefonit"
+          required
+        />
+        <textarea
+          name="description"
+          placeholder="Përshkruani Çështjen Tuaj"
+          required
+        ></textarea>
+        <button type="submit" class="cta-button">Dërgo Kërkesën</button>
+      </form>
+    </section>
+
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

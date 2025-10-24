@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2C3E50;
+}
+
+p {
+  color: #666;
+}
+
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+a {
+  color: #27AE60;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container p{
+  text-align: center;
+}
+
+/* Header Section */
+.header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.profile-photo img {
+  width: 220px;
+  height: 230px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.lawyer-name {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.lawyer-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.social-links a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid #27AE60;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #27AE60;
+  color: white;
+}
+
+/* Bio Section */
+.bio-section {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.bio-section p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Achievements Section */
+.achievements-section {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.achievements-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Education Section */
+.education-section {
+  background-color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.education-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Case Studies Section */
+.case-studies-section {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.case {
+  margin-bottom: 40px;
+}
+.container h2{
+  position: relative;
+  bottom: 20px;
+}
+.case h3 {
+  font-size: 24px;
+  color: #27AE60;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  margin: 0;
+}

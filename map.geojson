@@ -1,0 +1,42 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{},"geometry":{"coordinates":[20.665279263543425,41.86352352033572],"type":"Point"}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Prishtina"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [20.8946, 42.6625],
+              [20.8966, 42.6627],
+              [20.8970, 42.6640],
+              [20.8946, 42.6625]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Prizren"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [20.7381, 42.2106],
+              [20.7391, 42.2118],
+              [20.7402, 42.2131],
+              [20.7381, 42.2106]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+  
+  

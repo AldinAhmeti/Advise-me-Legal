@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/real\ estate.avif');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    background-color: #27AE60;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #219150;
+}
+
+/* Our Best Lawyers Section */
+.lawyers {
+    padding: 60px 20px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.lawyer-gridd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.lawyerr {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.containeer{
+    padding-top: 20px;
+}
+.lawyerr img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.containeer h2{
+    display: flex;
+    justify-content: center;
+}
+
+.lawyerr h3 {
+    color: #27AE60;
+    margin: 15px 0 10px;
+}
+
+.lawyerr p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Services Section */
+.services {
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-decoration: none;
+}
+.services-grid a{
+    text-decoration: none;
+}
+.service-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease;
+    text-decoration:none;
+    color: #27AE60;
+    height: 250px;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box h3 {
+    color: #27AE60;
+    margin: 20px 0;
+    font-size: 1.4rem;
+}
+
+.service-box p {
+    color: #666;
+}
+
+/* Case Studies Section */
+.case-studies {
+    padding: 60px;
+    background-color: #f5f5f5;
+}
+
+.case-studies h2 {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.case-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.case-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.case-card span{
+    font-weight: bold;
+    color: #27AE60;
+}
+.case-card h3 {
+    margin-bottom: 10px;
+}
+
+.case-card p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.outcome {
+    font-weight: bold;
+    color: #27AE60;
+}
+
+/* Contact Us Section */
+.cta-button {
+    background-color: #27AE60;
+    padding: 12px 30px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+.contact h2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px
+}
+.cta-button:hover {
+    background-color: #219150;
+    cursor: pointer;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.contact input, .contact textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.contact input:hover, .contact textarea:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .lawyers-container, .services-grid, .case-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .lawyers-container, .services-grid, .case-grid {
+        grid-template-columns: 1fr;
+    }
+}

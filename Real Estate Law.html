@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Real Estate Law.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <link rel="stylesheet" href="Family Law.css" />
+  <style>
+    .side ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .side ul li {
+      padding: 5px;
+    }
+
+    .side ul li a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Dropdown Styles */
+    .side ul ul {
+      position: absolute;
+      z-index: 5;
+      display: none; /* Hidden by default */
+      padding-right: 10px;
+    }
+
+    .side ul li.active ul {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: rgb(232, 232, 232);
+      display: block; /* Show dropdown when active */
+    }
+
+    /* Arrow rotation */
+    .side ul li a i {
+      transition: transform 0.3s ease;
+    }
+
+    .side ul li.active a i {
+      transform: rotate(90deg); /* Rotate arrow when active */
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.html">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+     <!-- Seksioni Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Shërbime Ligjore Ekspertë për Pasuritë e Paluajtshme</h1>
+    <p>
+      Ne ofrojmë zgjidhje të personalizuara ligjore për të gjitha çështjet e
+      pronave dhe pasurive të paluajtshme.
+    </p>
+    <a href="#services" class="cta-btn">Eksploro Shërbimet</a>
+  </div>
+</section>
+
+<!-- Seksioni i Shërbimeve -->
+<section id="services" class="services">
+  <h2>Shërbimet Tona</h2>
+  <div class="services-grid">
+    <a href="PropertyL.html">
+      <div class="service-box">
+        <i class="fas fa-building"></i>
+        <h3>Litigimi i Pronave</h3>
+        <p>
+          Zgjidhja e mosmarrëveshjeve të pronave me ekspertizë në përfaqësimin
+          ligjor.
+        </p>
+      </div>
+    </a>
+    <a href="ComercialRS.html">
+      <div class="service-box">
+        <i class="fas fa-home"></i>
+        <h3>Shitjet Komerciale dhe Rezidenciale</h3>
+        <p>
+          Asistencë në blerjen e pronave me fokus në sigurinë ligjore.
+        </p>
+      </div>
+    </a>
+    <a href="ContractDR.html">
+      <div class="service-box">
+        <i class="fas fa-gavel"></i>
+        <h3>Hartimi dhe Rishikimi i Kontratave</h3>
+        <p>
+          Udhëzime profesionale ligjore për hartimin, rishikimin dhe
+          negociimin e kontratave.
+        </p>
+      </div>
+    </a>
+    <a href="LeaseDisputes.html">
+      <div class="service-box">
+        <i class="fas fa-handshake"></i>
+        <h3>Mosmarrëveshjet e Qirave dhe të Drejtat e Qiramarrësve</h3>
+        <p>
+          Udhëzime për çështje komplekse mes pronarit dhe qiramarrësit dhe
+          negociatat e qirasë.
+        </p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- Seksioni i Studimeve të Rasteve -->
+<section id="case-studies" class="case-studies">
+  <h2>Rezultate të Provuara të Rasteve</h2>
+  <div class="case-grid">
+    <div class="case-card">
+      <h3>Titulli i Pronës së Siguruar për Klientin Rezidencial</h3>
+      <p>
+        U zgjidh me sukses një rast kompleks që përfshinte pronësinë e
+        kontestuar të pronës.
+      </p>
+      <span class="outcome">Rezultat: Titulli i Siguruar</span>
+    </div>
+    <div class="case-card">
+      <h3>Marrëveshje e Suksesshme Qiraje Komerciale</h3>
+      <p>
+        U negociua një marrëveshje e favorshme qiraje për një pronë të madhe
+        komerciale.
+      </p>
+      <span class="outcome">Rezultat: Qiraja e Nënshkruar</span>
+    </div>
+    <div class="case-card">
+      <h3>Zgjidhja e Mosmarrëveshjeve të Ligjeve të Zonimit</h3>
+      <p>
+        Ndihmuam klientët në sigurimin e lejeve dhe të drejtave të zonimit për
+        zhvillimin e pronës.
+      </p>
+      <span class="outcome">Rezultat: Leja e Dhënë</span>
+    </div>
+  </div>
+</section>
+
+<!-- Seksioni i Avokatëve -->
+<section class="lawyers"></section>
+  <div class="containeer">
+    <h2>Njihuni me Avokatët Tanë të Ligjit Familjar</h2>
+    <div class="lawyer-gridd">
+      <div class="lawyerr">
+        <img src="images/lawyer1.avif" alt="Avokati 1" />
+        <h3>John Doe</h3>
+        <p>Avokat i Lartë për Ligjin Familjar</p>
+        <a href="tel:+123456789" class="btn">Kontakto</a>
+      </div>
+      <div class="lawyerr">
+        <img src="images/lawyer2.avif" alt="Avokati 2" />
+        <h3>Jane Smith</h3>
+        <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+        <a href="tel:+987654321" class="btn">Kontakto</a>
+      </div>
+      <div class="lawyerr">
+        <img src="images/lawyer3.avif" alt="Avokati 2" />
+        <h3>Jane Smith</h3>
+        <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+        <a href="tel:+987654321" class="btn">Kontakto</a>
+      </div>
+      <div class="lawyerr">
+        <img src="images/lawyer4.avif" alt="Avokati 3" />
+        <h3>David Brown</h3>
+        <p>Ekspert për Divorc & Ndarje</p>
+        <a href="tel:+456789123" class="btn">Kontakto</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seksioni Kontakt -->
+<section class="contact" id="contact">
+  <h2>Kontaktoni për një Konsultim Falas</h2>
+  <form action="submit.php" method="post">
+    <input type="text" name="name" placeholder="Emri Juaj" required />
+    <input type="email" name="email" placeholder="Email-i Juaj" required />
+    <input
+      type="tel"
+      name="phone"
+      placeholder="Numri Juaj i Telefonit"
+      required
+    />
+    <textarea
+      name="description"
+      placeholder="Përshkruani Rastin Tuaj"
+      required
+    ></textarea>
+    <button type="submit" class="cta-button">Dërgo Kërkesën</button>
+  </form>
+</section>
+
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

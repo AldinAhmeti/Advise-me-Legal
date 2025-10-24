@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advise me Legal</title>
+    <link rel="stylesheet" href="Alimony.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /* Basic Styles */
+      .side ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .side ul li {
+        padding: 5px;
+      }
+
+      .side ul li a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* Dropdown Styles */
+      .side ul ul {
+        position: absolute;
+        z-index: 5;
+        display: none; /* Hidden by default */
+        padding-right: 10px;
+      }
+
+      .side ul li.active ul {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: rgb(232, 232, 232);
+        display: block; /* Show dropdown when active */
+      }
+
+      /* Arrow rotation */
+      .side ul li a i {
+        transition: transform 0.3s ease;
+      }
+
+      .side ul li.active a i {
+        transform: rotate(90deg); /* Rotate arrow when active */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-section"></div>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <!-- Dropdown List -->
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.css">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="Contact us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+     <!-- Hero Section -->
+     <section class="hero-chh">
+      <div class="hero-content-chh">
+        <h1>Ushqimi & Mbështetja Bashkëshortore</h1>
+        <p>Kuptimi i të drejtave dhe detyrimeve tuaja në lidhje me ushqimin dhe mbështetjen bashkëshortore është thelbësor gjatë procedurave të divorcit. <br>
+          Ekipi ynë është këtu për t'ju udhëhequr në çdo hap të rrugës.</p>
+        <a href="#learn-more" class="cta-button">Mëso Më Shumë</a>
+      </div>
+    </section>
+  
+    <!-- What is Alimony Section -->
+    <section class="child-custody-info">
+      <h2>Çfarë është Ushqimi dhe Mbështetja Bashkëshortore?</h2>
+      <div class="custody-details">
+        <p>Ushqimi, i njohur gjithashtu si mbështetje bashkëshortore, është një detyrim financiar i vendosur mbi një bashkëshort 
+          për të ofruar ndihmë monetare për tjetrin pas divorcit ose ndarjes. 
+          Ai është krijuar për të ndihmuar bashkëshortin me të ardhura më të ulëta të mbajë një standard jetese të ngjashëm me atë të përjetuar gjatë martesës.</p>
+      </div>
+    </section>
+  
+    <!-- Important Considerations Section -->
+    <section class="considerations">
+      <h2>Konsiderata të Rëndësishme</h2>
+      <div class="considerations-content">
+        <div class="consideration">
+          <h3>Kohëzgjatja e Martesës</h3>
+          <p>Gjatësia e martesës mund të ndikojë shumë në shumën dhe kohëzgjatjen e pagesave të ushqimit. 
+            Martesat më të gjata zakonisht çojnë në detyrime më afatgjata për mbështetje.</p>
+        </div>
+        <div class="consideration">
+          <h3>Nevojat Financiare & Aftësitë</h3>
+          <p> Gjykatat vlerësojnë nevojat financiare të bashkëshortit që merr mbështetje dhe aftësinë e bashkëshortit që paguan 
+            për të përmbushur ato nevoja duke ruajtur qëndrueshmërinë e tyre financiare.</p>
+        </div>
+        <div class="consideration">
+          <h3>Modifikimi i Ushqimit</h3>
+          <p>Ndryshimet në rrethana, si një ndryshim i rëndësishëm në të ardhura ose një rimartesë, mund të kërkojnë 
+            rregullime në marrëveshjen ekzistuese të mbështetjes bashkëshortore.</p>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Expert Lawyers Section -->
+    <section class="lawyers">
+      <div class="containeer">
+          <h2>Njihuni me Avokatët Tanë të Ligjit Familjar</h2>
+          <div class="lawyer-grid">
+              <div class="lawyer11">
+                  <img src="images/lawyer1.avif" alt="Avokati 1">
+                  <h3>John Doe</h3>
+                  <p>Avokat i Lartë për Ligjin Familjar</p>
+                  <a href="Contact us.html" class="btn">Kontakto</a>
+              </div>
+              <div class="lawyer11">
+                  <img src="images/lawyer2.avif" alt="Avokatja 2">
+                  <h3>Jane Smith</h3>
+                  <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+                  <a href="Contact us.html" class="btn">Kontakto</a>
+              </div>
+              <div class="lawyer11">
+                <img src="images/lawyer3.avif" alt="Avokatja 3">
+                <h3>Jane Smith</h3>
+                <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+                <a href="Contact us.html" class="btn">Kontakto</a>
+            </div>
+              <div class="lawyer11">
+                  <img src="images/lawyer4.avif" alt="Avokati 4">
+                  <h3>David Brown</h3>
+                  <p>Ekspert për Divorc & Ndarje</p>
+                  <a href="Contact us.html" class="btn">Kontakto</a>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+
+    
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2024 Child Custody Legal Services. All rights reserved.</p>
+      </footer>
+      </body>
+    <script src="index.js"></script>
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <link rel="stylesheet" href="Family Law.css" />
+  <style>
+    /* Basic Styles */
+    .side ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .side ul li {
+      padding: 5px;
+    }
+
+    .side ul li a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Dropdown Styles */
+    .side ul ul {
+      position: absolute;
+      z-index: 5;
+      display: none; /* Hidden by default */
+      padding-right: 10px;
+    }
+
+    .side ul li.active ul {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: rgb(232, 232, 232);
+      display: block; /* Show dropdown when active */
+    }
+
+    /* Arrow rotation */
+    .side ul li a i {
+      transition: transform 0.3s ease;
+    }
+
+    .side ul li.active a i {
+      transform: rotate(90deg); /* Rotate arrow when active */
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.html">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="heroess">
+      <div class="hero-content">
+        <h1>Këshilla të Thelluara Ligjore në Duart Tuaja</h1>
+        <p>
+          Qëndroni të përditësuar me lajmet dhe këshillat e fundit nga ekspertët
+          tanë ligjorë.
+        </p>
+        <div class="search-bar">
+          <input type="text" placeholder="Kërko blogun..." />
+          <button>Kërko</button>
+        </div>
+        <div class="featured-post">
+          <h2>Kuptimi i të Drejtave Tuaja në Ligjin Familjar</h2>
+          <p>Njihuni me të drejtat e kujdestarisë dhe ligjin familjar.</p>
+          <button class="cta">Lexo Më Shumë</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Blog Posts Section -->
+    <section class="featured-blogs">
+      <h2>Postimet e Fundit në Blog</h2>
+      <div class="post-grid">
+        <a href="Ligji Familjar.html">
+          <div class="post-card">
+            <img src="images/familylawcard.avif" alt="Ligji Familjar" />
+            <h3>Kuptimi i të Drejtave Tuaja në Ligjin Familjar</h3>
+            <p>
+              Kujdestaria, divorci dhe më shumë tema të ligjit familjar të
+              diskutuar në detaje.
+            </p>
+            <button class="read-more">Lexo Më Shumë</button>
+          </div>
+        </a>
+        <a href="Ligji Korporativ.html">
+          <div class="post-card">
+            <img src="images/corporatecardimg.avif" alt="Ligji Korporativ" />
+            <h3>Navigimi në Rregulloret Korporative</h3>
+            <p>
+              Mësoni përditësimet dhe rregulloret e fundit të ligjit korporativ.
+            </p>
+            <button class="read-more">Lexo Më Shumë</button>
+          </div>
+        </a>
+        <a href="Ligji Penal.html">
+          <div class="post-card">
+            <img src="images/criminallawcard.avif" alt="Ligji Penal" />
+            <h3>Reformat e Fundit në Ligjin Penal dhe te tjerave.</h3>
+            <p>
+              Qëndroni të përditësuar me ndryshimet e fundit në ligjin penal.
+            </p>
+            <button class="read-more">Lexo Më Shumë</button>
+          </div>
+        </a>
+        <a href="Të Drejtat Civile.html">
+          <div class="post-card">
+            <img src="images/civilcardcases.avif" alt="Ligji Civil" />
+            <h3>Rëndësia e Përfaqësimit Ligjor në Rastet Civile</h3>
+            <p>
+              Zbuloni pse përfaqësimi ligjor është i rëndësishëm në rastet
+              civile.
+            </p>
+            <button class="read-more">Lexo Më Shumë</button>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Family Law Insights Section -->
+    <section class="family-law">
+      <h2>Kuptime të Thelluara për Ligjin Familjar</h2>
+      <div class="family-law-content">
+        <p>
+          Ligji familjar është kompleks dhe emocional. Ekspertët tanë shpjegojnë
+          aspektet më të rëndësishme, nga procedurat e divorcit deri te betejat
+          për kujdestarinë e fëmijëve, duke ofruar njohuri ligjore për një
+          kuptim më të mirë.
+        </p>
+        <div class="family-articles">
+          <ul>
+            <li>
+              <a href="#">Si të Trajtoni një Mosmarrëveshje për Kujdestarinë</a>
+            </li>
+            <li><a href="#">Ndarja e Pasurive: Çfarë Duhet të Dini</a></li>
+            <li><a href="#">Procesi Ligjor i Divorcit</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="lawyers">
+      <div class="containeer">
+        <h2>Njihuni me Avokatët Tanë të Ligjit Familjar</h2>
+        <div class="lawyers-grid">
+          <div class="lawyers">
+            <img src="images/lawyer1.avif" alt="Avokati 1" />
+            <h3>John Doe</h3>
+            <p>Avokat i Lartë i Ligjit Familjar</p>
+            <a href="tel:+123456789" class="btn">Kontaktoni</a>
+          </div>
+          <div class="lawyers">
+            <img src="images/lawyer2.avif" alt="Avokati 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste e Kujdestarisë së Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontaktoni</a>
+          </div>
+          <div class="lawyers">
+            <img src="images/lawyer3.avif" alt="Avokati 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste e Kujdestarisë së Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontaktoni</a>
+          </div>
+          <div class="lawyers">
+            <img src="images/lawyer4.avif" alt="Avokati 3" />
+            <h3>David Brown</h3>
+            <p>Ekspert i Divorcit & Ndarjeve</p>
+            <a href="tel:+456789123" class="btn">Kontaktoni</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories & Tags Section -->
+    <section class="categories-tags">
+      <h2>Eksploroni sipas Kategorive</h2>
+      <div class="categories">
+        <a href="Ligji Familjar.html"
+          ><div class="category">Ligji Familjar</div></a
+        >
+        <a href="Ligji Korporativ.html"
+          ><div class="category">Ligji Korporativ</div></a
+        >
+        <a href="Ligji Penal.html"><div class="category">Ligji Penal</div></a>
+        <a href="Të Drejtat Civile.html"
+          ><div class="category">Të Drejtat Civile</div></a
+        >
+      </div>
+      <div class="tags">
+        <a href="Divorci.html"><span>Divorci</span></a>
+        <a href="Kujdestaria e Fëmijëve.html"
+          ><span>Kujdestaria e Fëmijëve</span></a
+        >
+        <a href="Mosmarrëveshjet Korporative.html"
+          ><span>Mosmarrëveshjet Korporative</span></a
+        >
+        <a href="Përfaqësimi Ligjor.html"><span>Përfaqësimi Ligjor</span></a>
+      </div>
+    </section>
+
+    <!-- Newsletter Sign-Up Section -->
+    <section class="newsletter">
+      <h2>Mos Humbisni Asnjë Përditësim</h2>
+      <p>
+        Abonohuni në buletinin tonë për këshillat ligjore më të fundit, lajmet
+        dhe përditësimet.
+      </p>
+      <div class="subscribe">
+        <input type="email" placeholder="Shkruani email-in tuaj" />
+        <button>Abonohu</button>
+      </div>
+    </section>
+
+    <script src="FAQs.js"></script>
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Consultations.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <link rel="stylesheet" href="Family Law.css" />
+  <style>
+    /* Basic Styles */
+    .side ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .side ul li {
+      padding: 5px;
+    }
+
+    .side ul li a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Dropdown Styles */
+    .side ul ul {
+      position: absolute;
+      z-index: 5;
+      display: none; /* Hidden by default */
+      padding-right: 10px;
+    }
+
+    .side ul li.active ul {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: rgb(232, 232, 232);
+      display: block; /* Show dropdown when active */
+    }
+
+    /* Arrow rotation */
+    .side ul li a i {
+      transition: transform 0.3s ease;
+    }
+
+    .side ul li.active a i {
+      transform: rotate(90deg); /* Rotate arrow when active */
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.html">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.css">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Merr Konsultime Ligjore nga Ekspertë</h1>
+        <p>
+          Rezervoni konsultimin tuaj me avokatët më të mirë të specializuar në
+          fusha të ndryshme të ligjit.
+        </p>
+        <a href="#" class="cta-button">Rezervoni Konsultimin Tani</a>
+      </div>
+    </section>
+
+    <!-- Llojet e Konsultimeve -->
+    <section class="consultation-types">
+      <h2>Shërbimet Tona të Konsultimeve</h2>
+      <div class="type-grid">
+        <div class="type-item">
+          <i class="fas fa-gavel"></i>
+          <h3>Konsultime për Ligjin Familjar</h3>
+          <p>Këshilla eksperte për çështje ligjore që lidhen me familjen.</p>
+          <a href="Family Law.html">Rezervo Tani</a>
+        </div>
+        <div class="type-item">
+          <i class="fas fa-building"></i>
+          <h3>Konsultime për Ligjin e Korporatave</h3>
+          <p>Merrni ndihmë ligjore për çështje biznesi dhe korporatash.</p>
+          <a href="Corporate Law.html">Rezervo Tani</a>
+        </div>
+        <div class="type-item">
+          <i class="fas fa-balance-scale"></i>
+          <h3>Këshillime dhe udhëzime profesionale për Ligjin Penal</h3>
+          <p>Merrni këshillime dhe udhzime ligjore për raste penale.</p>
+          <a href="Criminal Law.html">Rezervo Tani</a>
+        </div>
+        <div class="type-item">
+          <i class="fas fa-file-alt"></i>
+          <h3>Konsultime për Ligjin e Kontratave</h3>
+          <p>Sigurohuni që kontratat tuaja janë të vlefshme ligjërisht.</p>
+          <a href="Contract Negotiation.html">Rezervo Tani</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Si Funksionon -->
+    <section class="how-it-works">
+      <h2>Si Funksionon</h2>
+      <div class="steps-container">
+        <div class="step">
+          <span>1</span>
+          <h3>Dërgoni Kërkesën Tuaj</h3>
+          <p>Jepni detaje rreth çështjes tuaj ligjore.</p>
+        </div>
+        <div class="step">
+          <span>2</span>
+          <h3>Zgjidheni me Një Avokat</h3>
+          <p>Ne do të gjejmë avokatin e duhur për çështjen tuaj.</p>
+        </div>
+        <div class="step">
+          <span>3</span>
+          <h3>Merrni Konsultimin Tuaj</h3>
+          <p>Lidhu me avokatin tuaj për një konsultim.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni i Avokatëve të Shquar -->
+    <section class="lawyers">
+      <div class="containeerss">
+        <h2>Njihuni me Avokatët Tanë të Ligjit Familjar</h2>
+        <div class="lawyer-gridss">
+          <div class="lawyerss">
+            <img src="images/lawyer1.avif" alt="Avokat 1" />
+            <h3>John Doe</h3>
+            <p>Avokat i Lartë për Ligjin Familjar</p>
+            <a href="tel:+123456789" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer2.avif" alt="Avokat 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer3.avif" alt="Avokat 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdestarinë e Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer4.avif" alt="Avokat 3" />
+            <h3>David Brown</h3>
+            <p>Ekspert për Divorc dhe Ndarje</p>
+            <a href="tel:+456789123" class="btn">Kontakto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni i Dëshmive -->
+    <section class="testimonials">
+      <h2>Çfarë Thonë Klientët Tanë</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>
+            "Përvojë e shkëlqyer! Më përshtatën me avokatin perfekt për çështjen
+            time."
+          </p>
+          <span>– Emri i Klientit</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Procesi i konsultimit ishte i qetë dhe i lehtë. Rekomandoj shumë."
+          </p>
+          <span>– Emri i Klientit</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni i FAQ -->
+    <section class="faq">
+      <h2>Pyetje të Shpeshta</h2>
+      <div class="faq-item">
+        <h3>Si mund të rezervoj një konsultim?</h3>
+        <p>
+          Ju mund të rezervoni një konsultim duke plotësuar formularin tonë të
+          kontaktit ose duke na telefonuar direkt.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3>Çfarë përfshin një konsultim?</h3>
+        <p>
+          Një konsultim përfshin një diskutim të detajuar të çështjes tuaj me
+          një nga avokatët tanë ekspertë.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seksioni i Formularit të Kontaktit -->
+    <section class="contact-form">
+      <h2>Na Kontaktoni për një Konsultim</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Emri Juaj" />
+          <input type="email" placeholder="Email-i Juaj" />
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Numri Juaj i Telefonit" />
+          <select>
+            <option>Zgjidhni Llojin e Konsultimit</option>
+            <option>Ligji Familjar</option>
+            <option>Ligji i Korporatave</option>
+          </select>
+        </div>
+        <textarea placeholder="Na tregoni rreth çështjes tuaj"></textarea>
+        <button class="cta-button" type="submit">Dërgo</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2024 Legal Advice. All rights reserved.</p>
+    </footer>
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

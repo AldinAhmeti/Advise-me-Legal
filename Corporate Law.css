@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #2C3E50;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/corporate1.avif') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+
+.hero .cta-btn {
+    padding: 15px 30px;
+    background-color: #27AE60;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-btn:hover {
+    background-color: #219150;
+}
+
+/* Corporate Expertise Section */
+.corporate-expertise {
+    background-color: #ffffff;
+}
+
+.corporate-expertise h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.corporate-expertise p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    text-decoration: none;
+}
+.expertise-grid a{
+    text-decoration: none;
+}
+
+.expertise-item {
+    background: #fefefe;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 220px;
+}
+
+.expertise-item:hover {
+    transform: translateY(-10px);
+}
+
+.expertise-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.expertise-item p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Proven Case Results Section */
+.proven-results {
+    background-color: #f1f1f1;
+}
+.proven-results h2{
+    display: flex;
+    justify-content: center;
+}
+.case-grid {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.case-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.case-card:hover {
+    transform: translateY(-10px);
+}
+
+.case-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.case-card span {
+    font-weight: bold;
+    color: #27AE60;
+}
+/* Lawyers Section */
+.lawyers {
+    padding: 60px 20px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.lawyer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.lawyer11 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.lawyer11 a{
+  text-decoration: none;
+  color: white;
+}
+.lawyer11 img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.lawyer11 h3 {
+    color: #27AE60;
+    margin: 15px 0 10px;
+}
+
+.lawyer11 p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+
+/* Why Choose Us Section */
+.why-choose-us h2{
+    display: flex;
+    justify-content: center;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #777;
+}
+.cta-button {
+    background-color: #27AE60;
+    padding: 12px 30px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+.contact h2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+}
+.cta-button:hover {
+    background-color: #219150;
+    cursor: pointer;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.contact input:hover, .contact textarea:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+

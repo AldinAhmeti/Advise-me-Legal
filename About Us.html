@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="About Us.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <link rel="stylesheet" href="Family Law.css" />
+  <style>
+    /* Basic Styles */
+    .side ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .side ul li {
+      padding: 5px;
+    }
+
+    .side ul li a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Dropdown Styles */
+    .side ul ul {
+      position: absolute;
+      z-index: 5;
+      display: none; /* Hidden by default */
+      padding-right: 10px;
+    }
+
+    .side ul li.active ul {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: rgb(232, 232, 232);
+      display: block; /* Show dropdown when active */
+    }
+
+    /* Arrow rotation */
+    .side ul li a i {
+      transition: transform 0.3s ease;
+    }
+
+    .side ul li.active a i {
+      transform: rotate(90deg); /* Rotate arrow when active */
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.html">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="Contact us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Mirësevini në AdviseMe Legal</h1>
+        <p>Partneri juaj i besuar për këshilla ligjore gjithëpërfshirëse.</p>
+        <a href="#" class="cta-button">Mëso më shumë</a>
+      </div>
+    </section>
+
+    <!-- Our Mission Section -->
+    <section class="our-mission">
+      <h2>Misioni Ynë</h2>
+      <div class="mission-items">
+        <div class="mission-item">
+          <i class="fas fa-balance-scale"></i>
+          <h3>Integritet</h3>
+          <p>
+            Ne respektojmë standardet më të larta etike në gjithçka që bëjmë.
+          </p>
+        </div>
+        <div class="mission-item">
+          <i class="fas fa-gavel"></i>
+          <h3>Ekspertizë</h3>
+          <p>
+            Ekipi ynë përbëhet nga avokatë shumë të kualifikuar dhe me përvojë.
+          </p>
+        </div>
+        <div class="mission-item">
+          <i class="fas fa-handshake"></i>
+          <h3>Përkushtim</h3>
+          <p>
+            Ne jemi të përkushtuar për të ofruar shërbimin më të mirë për
+            klientët tanë.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story">
+      <h2>Historia Jonë</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">2005</span>
+          <p>
+            E themeluar në vitin 2005, kompania jonë filloi si një ekip i vogël
+            avokatësh të përkushtuar.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2010</span>
+          <p>
+            Në vitin 2010, zgjeruam fushat tona të praktikës për të mbuluar
+            ligjin korporativ dhe penal.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2015</span>
+          <p>
+            Deri në vitin 2015, u bëmë një firmë e njohur me një reputacion për
+            përsosmëri.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2020</span>
+          <p>
+            Në vitin 2020, hapëm zyra shtesë në lokacione të reja për të
+            shërbyer më mirë klientët tanë.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet the Team Section -->
+    <section class="lawyers">
+      <div class="containeerss">
+        <h2>Njihuni me Avokatët Tanë për Ligjin e Familjes</h2>
+        <div class="lawyer-gridss">
+          <div class="lawyerss">
+            <img src="images/lawyer1.avif" alt="Lawyer 1" />
+            <h3>John Doe</h3>
+            <p>Avokat Senior për Ligjin e Familjes</p>
+            <a href="tel:+123456789" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer2.avif" alt="Lawyer 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdesin e Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer3.avif" alt="Lawyer 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdesin e Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer4.avif" alt="Lawyer 3" />
+            <h3>David Brown</h3>
+            <p>Ekspert për Divorc dhe Ndarje</p>
+            <a href="tel:+456789123" class="btn">Kontakto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values Section -->
+    <section class="our-values">
+      <h2>Vlerat Tona Kryesore</h2>
+      <div class="carousel">
+        <div class="carousel-item">
+          <h3>Fokusuar te Klienti</h3>
+          <p>
+            Ne vendosim klientët tanë në qendër të gjithçkaje që bëjmë, duke
+            siguruar që nevojat e tyre të plotësohen me kujdes të lartë.
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3>Transparencë</h3>
+          <p>
+            Ne besojmë në komunikim të hapur dhe të ndershëm, duke siguruar që
+            klientët tanë të jenë të informuar në çdo hap të rrugës.
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3>Inovacion</h3>
+          <p>
+            Ne vazhdimisht kërkojmë mënyra të reja dhe më të mira për të
+            shërbyer klientët tanë, duke përdorur teknologjitë dhe strategjitë
+            më të fundit në fushën ligjore.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Testimonials Section -->
+    <section class="testimonials">
+      <h2>Çfarë Thonë Klientët Tanë</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>
+            "Ekipi në AdviseMe Legal ishte i jashtëzakonshëm. Ata e trajtuan
+            rastin tim me profesionalizëm dhe kujdes."
+          </p>
+          <span>– Sarah Johnson</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Ekipi në AdviseMe Legal ishte i jashtëzakonshëm. Ata e trajtuan
+            rastin tim me profesionalizëm dhe kujdes."
+          </p>
+          <span>– Sarah Johnson</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "U ndjeva plotësisht i mbështetur gjatë procesit ligjor. I
+            rekomandoj shumë shërbimet e tyre!"
+          </p>
+          <span>– Michael Brown</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2024 Legal Advice. All rights reserved.</p>
+    </footer>
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

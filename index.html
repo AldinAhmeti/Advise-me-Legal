@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advise me Legal</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /* Basic Styles */
+      .side ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .side ul li {
+        padding: 5px;
+      }
+
+      .side ul li a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* Dropdown Styles */
+      .side ul ul {
+        position: absolute;
+        z-index: 5;
+        display: none; /* Hidden by default */
+        padding-right: 10px;
+      }
+
+      .side ul li.active ul {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: rgb(232, 232, 232);
+        display: block; /* Show dropdown when active */
+      }
+
+      /* Arrow rotation */
+      .side ul li a i {
+        transition: transform 0.3s ease;
+      }
+
+      .side ul li.active a i {
+        transform: rotate(90deg); /* Rotate arrow when active */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-section"></div>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <!-- Dropdown List -->
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.css">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="Contact us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero-sectioon">
+      <div class="another">
+        <div class="hero-content">
+          <h1>Këshilla Ligjore Eksperte për Çdo Situatë</h1>
+          <p>
+            Partneri juaj i besuar për të naviguar çështjet ligjore. Avokatë me
+            përvojë të gatshëm për t'ju ndihmuar me një qasje të personalizuar.
+          </p>
+        </div>
+        <button class="cta-btn">
+          <a href="Contact us.html">Merrni Ndihmë Ligjore Tani</a>
+        </button>
+      </div>
+    </section>
+
+    <!-- Our Expertise Section -->
+    <section class="expertise-section">
+      <h2>Ekspertiza Jonë</h2>
+      <div class="expertise-columns">
+        <a href="Corporate Law.html">
+          <div class="expertise-item">
+            <h3>E Drejta e Korporatave</h3>
+            <p>
+              Zgjidhje ligjore korporative të përshtatura për suksesin e
+              biznesit tuaj. Kontrata, Blerje dhe Shkrirje të trajtuara me
+              precizion.
+            </p>
+          </div>
+        </a>
+        <a href="Family Law.html">
+          <div class="expertise-item">
+            <h3>E Drejta Familjare</h3>
+            <p>
+              Ofrimi i udhëzimeve ligjore me ndjeshmëri në çështjet familjare si
+              divorc, kujdestari dhe marrëveshje mbështetëse.
+            </p>
+          </div>
+        </a>
+        <a href="Criminal Law.html">
+          <div class="expertise-item">
+            <h3>E Drejta Penale</h3>
+            <p>
+              Mbrojtja e të drejtave tuaja në procedurat penale, nga hetimet
+              deri te gjykimet, me përvojë dhe ekspertizë.
+            </p>
+          </div>
+        </a>
+        <a href="Civil Rights.html">
+          <div class="expertise-item">
+            <h3>Të Drejtat Civile</h3>
+            <p>
+              Luftojmë për drejtësi dhe barazi, duke ofruar këshilla ligjore dhe
+              përfaqësim në çështjet e të drejtave civile.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <h2 id="h22">Postimet Tona në Blog</h2>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+      <div class="blog-card-1">
+        <div class="contenti">
+          <img src="images/blogpost1.avif" alt="Postimet e Blogut" />
+          <div class="bot">
+            <div class="icon-row">
+              <img src="images/image 33.jpg" alt="Ikonë" />
+              <div class="part">
+                <h4>Aldin Ahmeti</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h2 id="h2">
+                Kur ishte hera e fundit që keni mbyllur vërtet <br />
+                kompjuterin tuaj
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorumperspiciatis magnam provident optio?
+              </p>
+              <hr id="line" />
+            </div>
+            <div class="Read-More">
+              <a href="blog.html"
+                >Lexo më shumë<i class="bx bxs-chevrons-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="contenti">
+          <img src="images/blogpost1.avif" alt="Postimet e Blogut" />
+          <div class="bot">
+            <div class="icon-row">
+              <img src="images/image 33.jpg" alt="Ikonë" />
+              <div class="part">
+                <h4>Aldin Ahmeti</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h2 id="h2">
+                Kur ishte hera e fundit që keni mbyllur vërtet <br />
+                kompjuterin tuaj
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorumperspiciatis magnam provident optio?
+              </p>
+              <hr id="line" />
+            </div>
+            <div class="Read-More">
+              <a href="blog.html"
+                >Lexo më shumë<i class="bx bxs-chevrons-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="contenti">
+          <img src="images/blogpost1.avif" alt="Postimet e Blogut" />
+          <div class="bot">
+            <div class="icon-row">
+              <img src="images/image 33.jpg" alt="Ikonë" />
+              <div class="part">
+                <h4>Aldin Ahmeti</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h2 id="h2">
+                Kur ishte hera e fundit që keni mbyllur vërtet <br />
+                kompjuterin tuaj
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorumperspiciatis magnam provident optio?
+              </p>
+              <hr id="line" />
+            </div>
+            <div class="Read-More">
+              <a href="blog.html"
+                >Lexo më shumë<i class="bx bxs-chevrons-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="contenti">
+          <img src="images/blogpost1.avif" alt="Postimet e Blogut" />
+          <div class="bot">
+            <div class="icon-row">
+              <img src="images/image 33.jpg" alt="Ikonë" />
+              <div class="part">
+                <h4>Aldin Ahmeti</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h2 id="h2">
+                Kur ishte hera e fundit që keni mbyllur vërtet <br />
+                kompjuterin tuaj
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorumperspiciatis magnam provident optio?
+              </p>
+              <hr id="line" />
+            </div>
+            <div class="Read-More">
+              <a href="blog.html"
+                >Lexo më shumë<i class="bx bxs-chevrons-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="contenti">
+          <img src="images/blogpost1.avif" alt="Postimet e Blogut" />
+          <div class="bot">
+            <div class="icon-row">
+              <img src="images/image 33.jpg" alt="Ikonë" />
+              <div class="part">
+                <h4>Aldin Ahmeti</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h2 id="h2">
+                Kur ishte hera e fundit që keni mbyllur vërtet <br />
+                kompjuterin tuaj
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorumperspiciatis magnam provident optio?
+              </p>
+              <hr id="line" />
+            </div>
+            <div class="Read-More">
+              <a href="blog.html"
+                >Lexo më shumë<i class="bx bxs-chevrons-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="contenti">
+          <img src="images/blogpost1.avif" alt="Postimet e Blogut" />
+          <div class="bot">
+            <div class="icon-row">
+              <img src="images/image 33.jpg" alt="Ikonë" />
+              <div class="part">
+                <h4>Aldin Ahmeti</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h2 id="h2">
+                Kur ishte hera e fundit që keni mbyllur vërtet <br />
+                kompjuterin tuaj
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorumperspiciatis magnam provident optio?
+              </p>
+              <hr id="line" />
+            </div>
+            <div class="Read-More">
+              <a href="blog.html"
+                >Lexo më shumë<i class="bx bxs-chevrons-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Best Lawyers Section -->
+    <section class="lawyers">
+      <div class="containeerss">
+        <h2>Takoni Avokatët Tanë të Drejtës Familjare</h2>
+        <div class="lawyer-gridss">
+          <div class="lawyerss">
+            <img src="images/lawyer1.avif" alt="Avokati 1" />
+            <h3>John Doe</h3>
+            <p>Avokat i Lartë për të Drejtën Familjare</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer2.avif" alt="Avokatja 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdestari të Fëmijëve</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer3.avif" alt="Avokatja 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdestari të Fëmijëve</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerss">
+            <img src="images/lawyer4.avif" alt="Avokatja 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste për Kujdestari të Fëmijëve</p>
+            <a href="Contact us.html" class="btn">Kontakto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Testimonials Section -->
+    <section class="testimonials">
+      <h2>Çfarë Thonë Klientët Tanë</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>
+            "John Doe ishte jashtëzakonisht profesionist dhe ndihmoi biznesin
+            tim të kalonte një bashkim kompleks pa probleme!"
+          </p>
+          <span>- Aldin</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Jane Smith trajtoi çështjen time familjare me kujdes dhe
+            ndjeshmëri. E rekomandoj shumë shërbimet e saj!"
+          </p>
+          <span>- Aldin</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Jane Smith trajtoi çështjen time familjare me kujdes dhe
+            ndjeshmëri. E rekomandoj shumë shërbimet e saj!"
+          </p>
+          <span>- Aldin</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section class="how-we-work-section">
+      <h2>Si e Bëjmë Punën Tonë</h2>
+      <div class="work-steps">
+        <div class="step">
+          <h3>1. Konsultim Falas</h3>
+          <p>
+            Diskutoni çështjen tuaj me ekspertët tanë dhe eksploroni zgjidhjet
+            më të mira ligjore.
+          </p>
+        </div>
+        <div class="step">
+          <h3>2. Strategjia e Çështjes</h3>
+          <p>
+            Ne vlerësojmë dhe planifikojmë çështjen tuaj për rezultatin më të
+            favorshëm.
+          </p>
+        </div>
+        <div class="step">
+          <h3>3. Ekzekutimi</h3>
+          <p>
+            Avokatët tanë ju përfaqësojnë në të gjitha çështjet ligjore me
+            përkushtim dhe kujdes.
+          </p>
+        </div>
+        <div class="step">
+          <h3>4. Zgjidhja</h3>
+          <p>
+            Ne punojmë me përkushtim për të arritur zgjidhjen më të mirë të
+            mundshme për çështjen tuaj.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Legal Advice Website. All Rights Reserved.</p>
+      <a href="#">Privacy Policy</a>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

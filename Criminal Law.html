@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Criminal Law.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9399f1e0d8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <link rel="stylesheet" href="Family Law.css" />
+  <style>
+    /* Basic Styles */
+    .side ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .side ul li {
+      padding: 5px;
+    }
+
+    .side ul li a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Dropdown Styles */
+    .side ul ul {
+      position: absolute;
+      z-index: 5;
+      display: none; /* Hidden by default */
+      padding-right: 10px;
+    }
+
+    .side ul li.active ul {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: rgb(232, 232, 232);
+      display: block; /* Show dropdown when active */
+    }
+
+    /* Arrow rotation */
+    .side ul li a i {
+      transition: transform 0.3s ease;
+    }
+
+    .side ul li.active a i {
+      transform: rotate(90deg); /* Rotate arrow when active */
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <div class="h2">
+        <h2>Advise Me</h2>
+        <div class="word-with-line">
+          <div class="line"></div>
+          <span>Legal</span>
+        </div>
+      </div>
+      <div class="side">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+              >Legal Areas <i class="bx bx-chevron-right"></i
+            ></a>
+            <ul>
+              <li><a href="Family Law.html">Family Law</a></li>
+              <li><a href="Criminal Law.html">Criminal Law</a></li>
+              <li><a href="Corporate Law.html">Corporate Law</a></li>
+              <li><a href="Civil Rights.html">Civil Rights</a></li>
+              <li><a href="Real Estate Law.html">Real Estate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Find a Lawyer.html">Find a Lawyer</a></li>
+          <li><a href="Consultations.html">Consultations</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Seksioni Hero -->
+    <section class="hero6">
+      <div class="hero-content6">
+        <h1>Shërbime Ekspertësh në Mbrojtjen Penale</h1>
+        <p>Mbrojtja e të Drejtave Tuaja me Përvojë & Përkushtim</p>
+        <a href="#contact" class="cta-button">Kërko Konsultim Falas</a>
+      </div>
+    </section>
+
+    <!-- Seksioni Besimi -->
+    <section class="trust">
+      <h2>Pse të Na Zgjidhni Ne?</h2>
+      <div class="trust-cards">
+        <div class="trust-card">
+          <i class="fas fa-gavel"></i>
+          <h3>Avokatë me Përvojë</h3>
+          <p>Mbi 20 vite përvojë në ligjin penal, duke luftuar për drejtësi.</p>
+        </div>
+        <div class="trust-card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Mbrojtje e Fortë</h3>
+          <p>
+            Rezultate të provuara në hedhjen poshtë të rasteve dhe uljen e
+            dënimeve.
+          </p>
+        </div>
+        <div class="trust-card">
+          <i class="fas fa-thumbs-up"></i>
+          <h3>Qasje e Përqendruar te Klienti</h3>
+          <p>
+            Ne i japim përparësi nevojave të klientëve me strategji ligjore të
+            personalizuara.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni i Llojeve të Ligjit Penal (I Përditësuar) -->
+    <section class="criminal-law-types">
+      <h2>Llojet e Ligjit Penal që Trajtojmë</h2>
+      <div class="types-grid">
+        <a href="Violent Crimes.html">
+          <div class="law-type violent-crimes">
+            <h3>Krime të Dhunshme</h3>
+            <p>
+              Trajtimi i rasteve që përfshijnë sulme, grabitje, vrasje dhe më
+              shumë.
+            </p>
+          </div>
+        </a>
+        <a href="Drug Offenses.html">
+          <div class="law-type drug-crimes">
+            <h3>Veprat Penale me Drogë</h3>
+            <p>
+              Mbrojtje për rastet e posedimit, trafikimit dhe shpërndarjes së
+              drogës.
+            </p>
+          </div>
+        </a>
+        <a href="White Collar.html">
+          <div class="law-type white-collar-crimes">
+            <h3>Krimet e Jakave të Bardha</h3>
+            <p>Mbrojtje për mashtrim, përvetësim dhe krime të korporatave.</p>
+          </div>
+        </a>
+        <a href="DUI&DWI.html">
+          <div class="law-type dui-cases">
+            <h3>Vozitje nën Ndikim (DUI & DWI)</h3>
+            <p>
+              Mbrojtje ligjore për akuzat për vozitje nën ndikim të alkoolit dhe
+              substancave të tjera.
+            </p>
+          </div>
+        </a>
+        <a href="scrimes.html">
+          <div class="law-type sex-crimes">
+            <h3>Krime Seksuale</h3>
+            <p>
+              Reprezentim për akuzat për sulme seksuale, ngacmime dhe të tjera.
+            </p>
+          </div>
+        </a>
+        <a href="Juvenille Crimes.html">
+          <div class="law-type juvenile-crimes">
+            <h3>Krime të të Miturve</h3>
+            <p>
+              Mbrojtja e të miturve të akuzuar për krime në gjykatën për të
+              mitur.
+            </p>
+          </div>
+        </a>
+
+        <!-- Lloje të Reja të Ligjit -->
+        <a href="Property Crimes.html">
+          <div class="law-type property-crimes">
+            <h3>Krime ndaj Pronës</h3>
+            <p>
+              Trajtimi i rasteve të vjedhjeve, grabitjeve, vandalizmit dhe
+              zjarrvënies.
+            </p>
+          </div>
+        </a>
+        <a href="Cyber.html">
+          <div class="law-type cyber-crimes">
+            <h3>Krime Kibernetike</h3>
+            <p>
+              Mbrojtje për rastet që përfshijnë pirateri, vjedhje identiteti dhe
+              mashtrime online.
+            </p>
+          </div>
+        </a>
+        <a href="Domestic Violence.html">
+          <div class="law-type domestic-violence">
+            <h3>Dhunë në Familje</h3>
+            <p>
+              Reprezentim për akuzat për dhunë në familje, urdhra mbrojtjeje dhe
+              mosmarrëveshje familjare.
+            </p>
+          </div>
+        </a>
+        <a href="Public Order.html">
+          <div class="law-type public-order-offenses">
+            <h3>Shkelje të Rendit Publik</h3>
+            <p>
+              Trajtimi i rasteve për sjellje të pahijshme, trazira dhe shkelje
+              të tjera publike.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Seksioni i Shërbimeve Penale -->
+    <section class="services">
+      <h2>Shërbimet Tona në Ligjin Penal</h2>
+      <div class="service-cardss">
+        <a href="DUI&DWI.html">
+          <div class="service-cardd">
+            <i class="fas fa-handcuffs"></i>
+            <h3>Mbrojtja për DUI</h3>
+            <p>
+              Reprezentim i aftë për rastet e vozitjes në gjendje të dehur dhe
+              të ndikuar.
+            </p>
+          </div>
+        </a>
+        <a href="Drug Offenses.html">
+          <div class="service-cardd">
+            <i class="fas fa-cannabis"></i>
+            <h3>Krimet me Drogë</h3>
+            <p>
+              Mbrojtje e ekspertëve kundër akuzave për posedim dhe shpërndarje
+              droge.
+            </p>
+          </div>
+        </a>
+        <a href="Violent Crimes.html">
+          <div class="service-cardd">
+            <i class="fas fa-fist-raised"></i>
+            <h3>Krime të Dhunshme</h3>
+            <p>
+              Mbrojtje për klientët që përballen me akuza për sulm, dhunë dhe më
+              shumë.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Seksioni i Rezultateve të Rasteve -->
+    <section class="case-results">
+      <h2>Rezultate të Provuara të Rasteve</h2>
+      <div class="result-cards">
+        <div class="result-card">
+          <h3>Rasti për DUI i Anuluar</h3>
+          <p>
+            Akuzat për DUI të klientit tonë u anuluan për mungesë provash dhe
+            strategji efektive të mbrojtjes.
+          </p>
+          <span class="outcome">Rezultati: Akuzat Anuluar</span>
+        </div>
+        <div class="result-card">
+          <h3>Akuzat për Posedim të Drogës Ulet</h3>
+          <p>
+            Arritëm të negociojmë ulje dënimi për një klient që përballej me
+            akuza për posedim droge.
+          </p>
+          <span class="outcome">Rezultati: Dënimi Ulet</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni i Specialistëve të Ligjit Penal -->
+    <section class="lawyerss">
+      <div class="containeer">
+        <h2>Takoni Avokatët Tanë të Ligjit Familjar</h2>
+        <div class="lawyer-gridd">
+          <div class="lawyerr">
+            <img src="images/lawyer1.avif" alt="Lawyer 1" />
+            <h3>John Doe</h3>
+            <p>Avokat Senior i Ligjit Familjar</p>
+            <a href="tel:+123456789" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerr">
+            <img src="images/lawyer2.avif" alt="Lawyer 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste në Kujdestarinë e Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerr">
+            <img src="images/lawyer3.avif" alt="Lawyer 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste në Kujdestarinë e Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontakto</a>
+          </div>
+          <div class="lawyerr">
+            <img src="images/lawyer2.avif" alt="Lawyer 2" />
+            <h3>Jane Smith</h3>
+            <p>Specialiste në Kujdestarinë e Fëmijëve</p>
+            <a href="tel:+987654321" class="btn">Kontakto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksioni i Kontaktit -->
+    <section class="contact" id="contact">
+      <div class="contact-content">
+        <h2>Kërko Konsultim Falas</h2>
+        <form>
+          <input type="text" placeholder="Emri Juaj" required />
+          <input type="email" placeholder="Email-i Juaj" required />
+          <textarea placeholder="Mesazhi Juaj" required></textarea>
+          <button type="submit">Dërgo</button>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      // Select the dropdown list item
+      const dropdown = document.querySelector(".dropdown");
+      // Add click event listener
+      dropdown.addEventListener("click", function () {
+        // Toggle the active class on the dropdown
+        this.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
